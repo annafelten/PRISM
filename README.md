@@ -41,3 +41,16 @@ This project requires R ≥ 4.2 and the following packages:
 - `glmnet`
 - `plotly`
 - `DT`
+
+## Quick Start
+
+1. **Run the main modeling pipeline**  
+   Execute `run_model_pipeline.R` to generate forecasts, train models, and output artefacts (model accuracy tables, saved predictors, forecast objects).
+
+2. **Download vaccine-related Google Trends data**  
+   Run `vaccine_trends_pull.R` to fetch and clean weekly search data for vaccine terms. Results are saved as both `.csv` and `.rds` files.
+
+3. **Launch the interactive dashboard**  
+   Start the Shiny app by running:
+   ```r
+   shiny::runApp("app.R")

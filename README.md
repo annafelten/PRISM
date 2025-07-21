@@ -42,7 +42,7 @@ This project requires R ≥ 4.2 and the following packages:
 - `plotly`
 - `DT`
 
-## Quick Start
+## Get Started
 
 1. **Run the main modeling pipeline**  
    Execute `run_model_pipeline.R` to generate forecasts, train models, and output artefacts (model accuracy tables, saved predictors, forecast objects).

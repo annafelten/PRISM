@@ -1,0 +1,12 @@
+name: PRISM
+title: PRISM
+username: annafelten
+account: annafelten
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15086837
+bundleId: 10651844
+url: https://annafelten.shinyapps.io/PRISM/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
